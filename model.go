@@ -12,6 +12,7 @@ type photo struct {
 	Title       string `json:"title"`
 	Description string `json:"description"`
 	Filename    string `json:"filename"`
+	File        string `json:"file"`
 	OriLink     string `json:"ori_link"`
 }
 
